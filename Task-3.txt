@@ -1,0 +1,20 @@
+ 1. add user  tanjiro nezuko and zenistu and assign password to them.
+
+  2. add user nezuko having id = 4002
+
+  3. change user id of tanjiro to 4003
+
+ 4.  create group d-slayer 
+
+  5. add  tanjiro nezuko and zenistu to d-slayer group
+
+  6. make tanjiro admin to d-slayer group
+
+ 7. for user nezuko do the following:
+     password should expires after 30 days, inactive after 10 days of expiration, warning days should be 7 before expiry, and  
+     account should be expire after 2 month from the day of it created. 
+
+  8. remove zenistu from group d-slayer
+
+Note:read all the questions carefully
+

@@ -1,0 +1,17 @@
+TASK
+
+1. display kernel name ?
+
+2.display current date and time ?
+
+3.what is your machine name?
+
+4.display version and release of kernel?
+
+5.dispaly current, next and prev month's calender
+
+6.open new terminal and show terminal type and logged in details of user?
+
+7. show cureent running shell
+
+8. how to check available memory ?

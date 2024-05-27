@@ -1,0 +1,18 @@
+Task-2: 
+1. create  dir as /practice
+2. create file in dir practice task2.txt
+3. write 10 lines of data in  task2.txt file using vi/vim editor  [topic India]
+4. copy first 4 lines and paste at the end of file
+5. find line number where "India" word appears
+6. remove highlight and save file 
+7. replace word "India" with "Bharat"
+8. save file without using wq
+9. copy  task2.txt file into /task3.txt without using cp command
+10. read  task2.txt file using these commands (cat,vim,head,tail)
+11. read bottom 2 lines only 
+---------------------------------------------------------------------------
+12. create job for sleep 60 seconds
+13. list jobs
+14. create new job and put in the background
+15. take bg task to foreground[fg]
+16. terminate running job

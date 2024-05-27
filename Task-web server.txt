@@ -1,0 +1,6 @@
+Task-1 
+Download CSS template and configured it on Apache HTTPD
+
+Task-2
+Download CSS template and configured it on Nginx
+

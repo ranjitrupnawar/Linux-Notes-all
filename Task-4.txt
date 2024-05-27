@@ -1,0 +1,17 @@
+Permissions ->
+1. You already have user tanjiro nezuko and zenistu also  group d-slayer
+2. Now create directory /task-4  also create file with name readme.txt 
+3. Change the owner and primary group of /task-4 and readme.txt 
+    [ choose owner of your choice from above and group will be d-slayer ]
+4. Change the permission set of /task-4/readme.txt so that only the user (owner) can read, write, and execute it.
+5. Change the permission set of /task-4/readme.txt so that any user can read it, the group can read/write to it and the user (owner) can read/write/execute
+    [ using numbers ]
+6. Change the permission set of /task-4/readme.txt so that only the owner can rename or delete this file while maintaining the existing permissions.
+
+Cronjobs ->
+1. create task for  every friday at 5
+2. create task for  every 7 min
+3. create task for  10th  oct  10min  10hr
+4. create task for every 3hr
+5. create task for twice a day at 8 am and 8 pm.
+6. create task for every Wednesday between the 1st and 15th of every month.

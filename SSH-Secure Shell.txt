@@ -1,0 +1,42 @@
+SSH-Secure Shell
+-> used to get access of another remote server
+-> port no- 22
+
+-------------------------------------------------------
+Lets suppose we have 2 servers
+Server -> 192.168.10.6
+Client ->   192.168.10.8
+
+Now i want to access  server  from client side
+
+There are two ways to get access of remote server:
+1. password based
+2. key based
+   a)  public key   [server]
+   b) private key  [client]
+
+Server:
+1.Password based
+[server /]# useradd user1
+[server /]# passwd user1
+
+Client:
+ssh  user1@192.168.10.6     -->ip of server 
+passwd: enter password
+
+-----------------------------------------------------------
+2. key based
+   a)  public key   [server] id _rsa.pub  [who giving access]
+   b) private key  [client]  id_rsa [who is taking access] 
+
+
+Server:
+          ->Generate key pair
+[user1@server ~ ] $ ssh-keygen 
+[user1@server ~ ]$ cd .ssh
+                             # ls
+
+scp  id_rsa   root@192.168.10.8:/mnt    -->copy private key to client machine
+
+Client:
+[root@client /] # ssh -i  id_rsa  user1@192.168.10.6

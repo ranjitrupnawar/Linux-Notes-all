@@ -1,0 +1,7 @@
+Que. Calculate the 1.number of networks, 2.number of hosts, 3.find subnet with magical number, 4.subnet range for following ip addresses
+
+-> 172.168.0.14/18
+->142.68.8.0 /21
+->210.16.18.0 /26
+->54.101.4.0 /23
+->101.112.25.0 /17
